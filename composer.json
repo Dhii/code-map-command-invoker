@@ -12,7 +12,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^5.4 | ^7.0"
+        "php": "^5.4 | ^7.0",
+        "dhii/invoker-interface": "^0.1",
+        "dhii/invoker-abstract": "^0.1",
+        "dhii/invoker-base": "^0.1",
+        "dhii/code-map-command-invoker-abstract": "^0.1",
+        "dhii/i18n-helper-base": "^0.1",
+        "dhii/exception-helper-base": "^0.1",
+        "dhii/normalization-helper-base": "^0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
