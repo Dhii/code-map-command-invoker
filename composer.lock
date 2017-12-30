@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eaf29504795e59b056faad0b47c15f29",
+    "content-hash": "862a8d30320dccb45d222586b0041811",
     "packages": [
         {
             "name": "dhii/code-map-command-invoker-abstract",
-            "version": "dev-task/initial-classes",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/code-map-command-invoker-abstract.git",
-                "reference": "af938f15261884e9c3fd1c0d487194dce809be85"
+                "reference": "3a51385003079613065610548f093afd6ae73667"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/code-map-command-invoker-abstract/zipball/af938f15261884e9c3fd1c0d487194dce809be85",
-                "reference": "af938f15261884e9c3fd1c0d487194dce809be85",
+                "url": "https://api.github.com/repos/Dhii/code-map-command-invoker-abstract/zipball/3a51385003079613065610548f093afd6ae73667",
+                "reference": "3a51385003079613065610548f093afd6ae73667",
                 "shasum": ""
             },
             "require": {
@@ -25,14 +25,9 @@
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "<=0.3.2",
-                "dhii/invoker-interface": "^0.1",
                 "dhii/php-cs-fixer-config": "^0.1",
                 "phpunit/phpunit": "^4.8",
                 "ptrofimov/xpmock": "^1.1"
-            },
-            "suggest": {
-                "dhii/invoker-abstract": "For awareness of concepts that are common to invokers",
-                "dhii/invoker-base": "For standard concrete implementations of invocation exceptions and their factories"
             },
             "type": "library",
             "extra": {
@@ -56,7 +51,7 @@
                 }
             ],
             "description": "Abstract functionality for command invokers that work with a command code map.",
-            "time": "2017-12-30T14:06:30+00:00"
+            "time": "2017-12-18T17:22:07+00:00"
         },
         {
             "name": "dhii/exception",
@@ -306,12 +301,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/invoker-abstract.git",
-                "reference": "7a46b4944149ce5224c5604209c2fbb4432ecd03"
+                "reference": "aef237831e69ae917c033af6e3a553b8e17f4b2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/invoker-abstract/zipball/7a46b4944149ce5224c5604209c2fbb4432ecd03",
-                "reference": "7a46b4944149ce5224c5604209c2fbb4432ecd03",
+                "url": "https://api.github.com/repos/Dhii/invoker-abstract/zipball/aef237831e69ae917c033af6e3a553b8e17f4b2e",
+                "reference": "aef237831e69ae917c033af6e3a553b8e17f4b2e",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +342,7 @@
                 }
             ],
             "description": "Abstract functionality for invokers",
-            "time": "2017-12-30T13:25:12+00:00"
+            "time": "2017-12-30T16:13:37+00:00"
         },
         {
             "name": "dhii/invoker-base",
@@ -355,12 +350,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/invoker-base.git",
-                "reference": "8466caa64b70923296ac91c8e75833df2f8f7a1c"
+                "reference": "7e37107bfb8af91858770b80ea0bed7702792bc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/invoker-base/zipball/8466caa64b70923296ac91c8e75833df2f8f7a1c",
-                "reference": "8466caa64b70923296ac91c8e75833df2f8f7a1c",
+                "url": "https://api.github.com/repos/Dhii/invoker-base/zipball/7e37107bfb8af91858770b80ea0bed7702792bc0",
+                "reference": "7e37107bfb8af91858770b80ea0bed7702792bc0",
                 "shasum": ""
             },
             "require": {
@@ -400,7 +395,7 @@
                 }
             ],
             "description": "Base concrete functionality for invokers",
-            "time": "2017-12-29T16:55:48+00:00"
+            "time": "2017-12-30T16:23:55+00:00"
         },
         {
             "name": "dhii/invoker-interface",
@@ -408,12 +403,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/invoker-interface.git",
-                "reference": "e8b32e6f837e429c6fcfe729264e7d59ff255ab2"
+                "reference": "97897228b5a263d05ef69fa04d4614b73663c228"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/invoker-interface/zipball/e8b32e6f837e429c6fcfe729264e7d59ff255ab2",
-                "reference": "e8b32e6f837e429c6fcfe729264e7d59ff255ab2",
+                "url": "https://api.github.com/repos/Dhii/invoker-interface/zipball/97897228b5a263d05ef69fa04d4614b73663c228",
+                "reference": "97897228b5a263d05ef69fa04d4614b73663c228",
                 "shasum": ""
             },
             "require": {
@@ -449,7 +444,7 @@
                 }
             ],
             "description": "Interfaces for command invocation",
-            "time": "2017-12-30T13:24:47+00:00"
+            "time": "2017-12-30T15:35:36+00:00"
         },
         {
             "name": "dhii/normalization-helper-base",
@@ -2392,9 +2387,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "dhii/code-map-command-invoker-abstract": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
